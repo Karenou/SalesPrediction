@@ -4,14 +4,15 @@ Data Input
 ----------
 11,764 products sales and session data from 2019-04-01 to 2020-11-30 <br>
 Features include: 
-* sales data 
-	*sales, quantity, standard_price, discount_price, multibuy_unit_price, promotion_type, has_freebie, freebie_price
 * product list
 * holiday 
-* session data 
-	*click, addTocart, purchase, impression, checkout
 * vendor_name
 	* used for product segmentation
+* sales data 
+	* sales, quantity, standard_price, discount_price, multibuy_unit_price, promotion_type, has_freebie, freebie_price
+* session data 
+	* click, addTocart, purchase, impression, checkout
+
 
 Use one- or two-week data input to predict the week after next week sales quantity, leave one-week due to time for inventory replenishment <br>
 * timestep refers to number of week data input
